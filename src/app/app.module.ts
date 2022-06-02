@@ -7,6 +7,7 @@ import {AutocompleteAutoActiveFirstOptionExample} from './autocomplete-auto-acti
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
 import {HttpClientModule} from '@angular/common/http';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 @NgModule({
   declarations: [AutocompleteAutoActiveFirstOptionExample],
@@ -18,6 +19,7 @@ import {HttpClientModule} from '@angular/common/http';
     MatNativeDateModule,
     MaterialExampleModule,
     ReactiveFormsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AutocompleteAutoActiveFirstOptionExample],
